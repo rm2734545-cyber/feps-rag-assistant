@@ -1,8 +1,8 @@
 import streamlit as st
 import importlib
 
-retrieve_module = importlib.import_module("06_retrieve_context")
-prompt_module = importlib.import_module("07_prompting")
+retrieve_module = importlib.import_module("retrieve_context")
+prompt_module = importlib.import_module("prompting")
 
 st.title("🎓 المساعد الأكاديمي للائحة الكلية")
 api_key = st.secrets.get("OPENROUTER_API_KEY", "")
