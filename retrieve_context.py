@@ -1,5 +1,5 @@
 from langchain_community.vectorstores import Chroma
-from 04_vector_representation import get_embedding_model
+from vector_representation import get_embedding_model
 
 DB_DIR = "./chroma_db"
 def get_retriever(k: int = 3):
